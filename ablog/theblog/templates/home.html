@@ -1,0 +1,7 @@
+<h1>Post</h1>
+<ul>
+{%for post in object_List%}
+<li>{{post.title}}-{{post.author}}</br>
+    {{post.body}}
+{%endfor%}
+</ul>
