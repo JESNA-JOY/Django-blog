@@ -1,0 +1,9 @@
+<h1>Post in Detail<h1>
+    <h2 style="color:red;"><u>{{ post.title }}</u></h2>
+</br>
+<small>- By {{post.author.first_name}} {{post.author.last_name}} </small>
+<hr>
+<br><br>
+<smaller>{{post.body}}
+<br><br>
+<a href={% url 'home' %}>Back</a>
